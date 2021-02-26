@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+hr{
+    width: 65px;
+    height: 2px;
+    background-color: #ff8b38;
+    border: none;
+    margin: 20px auto;
+}
+.content{
+    width: 1600px;
+    margin: 0 auto;
+}
+.navbar{
+    background-color: #000;
+    padding: 30px 0;
+    display: flex;
+}
+.navbar .logo img{
+    width: 79px;
+    height: 28px;
+    
+}
+.navbar .logo{
+    position: absolute;
+    display: inline-block;
+}
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    padding: 25px 45px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.banner{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    background-position: 100% 50%;
+}
+.banner-text{
+    float: left;
+    flex: 50%;
+    padding: 120px 0px;
+}
+.banner-text h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px 0;
+}
+.banner-text hr{
+    margin: 0;
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+}
+.banner-text p {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    width: 500px;
+    word-break: break-all;
+    padding: 45px 0;
+    line-break: strict;
+}
+.button button{
+    width: 140px;
+    height: 40px;
+    background: transparent;
+    border: 2.5px solid #fff;
+    color: white;
+    font-size: 15px;
+}
+.button button:focus{
+    outline: 0;
+    cursor: pointer;
+}
+.button button:hover{
+    color: black;
+    background-color: white;
+}
+.form{
+    display: block;
+    width: 340px;
+    height: 350px;
+    float: right;
+    margin: 135px 200px;
+    background-color: white;
+    border-radius: 3%;
+}
+.form h2{
+    text-align: center;
+    color: #424242;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.form h2 span {
+    text-transform: uppercase;
+    color: #fd9d57;
+    font-weight: bolder;
+}
+.form input{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 280px;
+    height: 30px;
+    margin: 30px 35px;
+    opacity: 0.5;
+    border-bottom: 1px solid #424242;
+}
+.form input:focus{
+    outline: 0;
+}
+.form button{
+    background-color: #ff9b51;
+    border: none;
+    width: 340px;
+    height: 55px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.form button:focus{
+    outline: 0;
+    cursor: pointer;
+}
+.form button:hover{
+    color: #ff9b51;
+    background-color: white;
+    border: 3px solid #ff9b51;
+}
+.social{
+    border: 2px solid #cccc;
+    padding: 20px 0;
+    display: flex;
+}
+.social-text{
+    float: left;
+}
+.social-text p{
+    margin-top: 10px;
+    color: #86878b;
+}
+.icons{
+    display: flex;
+    float: right;
+    padding: 25px 0;
+}
+.tab-banner{
+    display: block;
+    padding: 130px;
+}
+.tab{
+    float: left;
+    width: 20%;
+}
+.tab-info{
+    width: 40%;
+    display: inline-block;
+}
+.tab-info h2{
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.tab-info p{
+    color: #86878b;
+    
+}
+.image-tab{
+    float: right;
+     width: 30%;
+}
+.tablinks{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    background-color: #333333; 
+    color: #fff;
+    align-items: center; 
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 1.4px;
+    border: 0;
+}
+.tablinks:focus{
+    outline: none;
+    cursor: pointer;
+}
+.tablinks:hover{
+    background-color: #ff8b38;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+.tab-info button{
+    width: 120px;
+    height: 45px;
+    margin-top: 50px;
+    background-color: #ff8b38;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-info button:focus{
+    outline: 0;
+    cursor: pointer;
+}
+.image-tab{
+    padding: 40px 0;
+}
+.sub{
+    display: block;
+    margin-top: 150px;
+}
+
+.sub-info{
+    float: right;
+    width: 50%;
+    right: 0;
+}
+.sub-info h2{
+    padding: 25px 0;
+}
+.sub-info hr{
+    width: 65px;
+    height: 2px;
+    background-color: #ff8b38;
+    border: none;
+    margin: 0;
+}
+.sub-info p{
+    padding-top: 20px;
+}
+.sub-image{
+    float: left;
+    width: 50%;
+}
+.round{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    margin-top: 35px;
+    float: left;
+    margin-right: 10px;
+}
+.title{
+    margin: 25px 0;
+    padding-right: 5px;
+}
+.title1{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.pic{
+    display: block;
+    margin-top: 200px;
+    clear: both;
+    padding: 180px 0;
+}
+.pic-info{
+    width: 50%;
+    float: left;
+}
+.pic-info h2{
+    padding: 25px 0;
+}
+.pic-info hr{
+    margin: 5px 0;
+}
+.pic-image{
+    width: 50%;
+    float: right;
+}
+.pic-image img{
+    padding-left: 130px;
+}
+.why{
+    display: block;
+    margin: 220px 0;
+}
+.why h2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.why hr{
+    width: 65px;
+    height: 2px;
+    background-color: #ff8b38;
+    border: none;
+    margin: 20px 0;
+    margin: 15px auto;
+}
+.why p{
+    text-align: center;
+    margin: 10px;
+}
+.why-info{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    clear: both;
+    margin: 45px;
+}
+.why-info .round{
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+}
+.first{
+    float: left;
+    display: grid;
+}
+.second{
+    display: grid;
+    margin: 0 auto;
+}
+.third{
+   display: grid;
+}
+.price-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-tag h2{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.price-tag p{
+    text-align: center;
+}
+.price-table{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    margin: 2rem;
+}
+.price-column{
+    margin: 50px;
+    flex-grow: 1;
+    max-width: 400px;
+    flex-basis: 0;
+}
+.price-header{
+    background-color: #333333;
+    border-bottom: 7px solid #ff8b38;
+}
+.price-name{
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+.price-header1{
+    margin-top: -35px;
+    background-color: #333333;
+}
+.price-name1{
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+}
+.price{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.price span{
+    font-size: 90px;
+    font-weight: bold;
+}
+.price-column p{
+    color: #787878;
+    font-style: italic;
+    padding: 20px;
+    font-weight: bold;
+}
+.popular{
+    background-color:#ff8b38;
+}
+.popular p{
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.price-list{
+    align-items: center;
+    text-align: center;
+    color: #86878b;
+}
+.price-list ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
+.price-list ul li{
+    text-decoration: none;
+    margin: 28px;
+}
+.customers h2{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.customers p{
+    text-align: center;
+    color: #86878b;
+}
+.workers{
+    display: flex;
+}
+.staff{
+    margin:70px 100px;
+}
+.staff p{
+    text-align: left;
+}
+.staff h3{
+    padding: 50px;
+}
+.staff h3 p{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+}
+.profile{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ff8b38;
+    border-radius: 50%;
+    margin-top: 35px;
+    float: left;
+    margin-right: 10px;
+}
+.style{
+    background-image: url('./1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    background-blend-mode: overlay;
+    color: white;
+   
+}
+.opacity{
+    position: absolute;
+    width:100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+    height: 340px;
+
+}
+.style .content {
+    position: relative;
+    z-index: initial;
+}
+.style hr{
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+}
+.style h2{
+    text-align: center;
+    padding: 75px 0 20px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    z-index: 12;
+}
+.style p{
+    text-align: center;
+}
+.style .button{
+    margin: 30px 735px;
+}
+.contact{
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    margin: 100px;
+}
+.contact h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.contact p{
+    text-align: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 au;
+}
+.contact-form input{
+    border: none;
+    flex-direction: row-reverse;
+    width: 660px;
+    height: 35px;
+    padding: 0 20px;
+    margin: 30px 65px;
+    opacity: 0.5;
+    border-bottom: 1px solid #424242;
+}
+.contact-form input:focus{
+    outline: none;
+}
+.messages{
+    position: absolute;
+    margin-left: 750px;
+}
+.messages input{
+    height: 225px;
+    text-align: start;
+}
+.messages input:focus{
+    outline: none;
+}
+.message{
+    height: 400px;
+    float: right;
+    right: 0;
+}
+.contact-button{
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    display: flex;
+}
+.contact-button button{
+    height: 45px;
+    width: 145px;
+    background-color: #ff9b51;
+    border: none;
+    border-radius: 1.4px;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-button:focus{
+    outline: none;
+    cursor: pointer;
+}
+.contact-button button:focus{
+    outline: none;
+    cursor: pointer;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.social-media img{
+    margin: 25px auto;
+}
+ img:focus{
+    cursor: pointer;
+}
+@media screen and (max-width: 1800px) {
+    body{
+        overflow-x: hidden;
+    }
+@media screen and (max-width: 1640px) {
+    .body{
+        display: block;
+    }
+    .banner{
+        padding: 100px;
+    }
+    .logo{
+        margin: 0 30px;
+    }
+    .navbar{
+        display: flex;
+    }
+    .form{
+        display: flex;
+        flex-direction: row;
+        margin: 150px;
+    }
+    .tab-banner{
+        display: flex;
+    }
+}
+@media screen and (max-width: 1430px) {
+    .form{
+        margin-top: -490px;
+    }
+    .tab-banner{
+        display: block;
+    }
+    .price-tag{
+        display: flex;
+    }
+    .body{
+        display: flex;
+    }
+    .customers{
+        display: flex;
+    }
+    .style{
+        display: flex;
+        background-size: cover;
+    }
+    .contact{
+        display: flex;
+    }
+    .why{
+        display: flex;
+    }
+    .sub{
+        display: flex;
+    }
+    .sub-info{
+        
+    }
+}
