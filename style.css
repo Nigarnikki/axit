@@ -628,36 +628,3 @@ nav ul li a{
         display: flex;
     }
 }
-@media screen and (max-width: 1430px) {
-    .form{
-        margin-top: -490px;
-    }
-    .tab-banner{
-        display: block;
-    }
-    .price-tag{
-        display: flex;
-    }
-    .body{
-        display: flex;
-    }
-    .customers{
-        display: flex;
-    }
-    .style{
-        display: flex;
-        background-size: cover;
-    }
-    .contact{
-        display: flex;
-    }
-    .why{
-        display: flex;
-    }
-    .sub{
-        display: flex;
-    }
-    .sub-info{
-        
-    }
-}
