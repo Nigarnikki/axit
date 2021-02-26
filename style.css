@@ -607,9 +607,7 @@ nav ul li a{
         overflow-x: hidden;
     }
 @media screen and (max-width: 1640px) {
-    .body{
-        display: block;
-    }
+
     .banner{
         padding: 100px;
     }
