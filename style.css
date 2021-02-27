@@ -602,12 +602,15 @@ nav ul li a{
  img:focus{
     cursor: pointer;
 }
+
 @media screen and (max-width: 1800px) {
     body{
         overflow-x: hidden;
     }
 @media screen and (max-width: 1640px) {
-
+    .body{
+        display: block;
+    }
     .banner{
         padding: 100px;
     }
@@ -624,5 +627,90 @@ nav ul li a{
     }
     .tab-banner{
         display: flex;
+    }
+}
+@media screen and (max-width: 1410px) {
+    .form{
+        margin-top: -490px;
+    }
+    .price-tag{
+        display: flex;
+    }
+    .body{
+        display: flex;
+    }
+    .customers{
+        display: flex;
+    }
+    .style{
+        display: flex;
+        background-size: cover;
+    }
+    .contact{
+        display: flex;
+    }
+    .why{
+        display: flex;
+    }
+    .sub{
+        display: flex;
+    }
+    .pic{
+        display: flex;
+    }
+    .messages{
+        display: flex;
+        position: initial;
+        margin-left: 0;
+    }
+    .contact-form{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1300px){
+    .form {
+        margin-right: 30px;
+    }
+    .banner{
+
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .tab-banner{
+    }
+    .pic{
+        margin-left: 30px;
+    }
+    .style{
+    background-image: url('./1.jpg');
+    width: 100%;
+
+    }
+}
+@media screen and (max-width: 1140px){
+    .banner-text{
+        width: 500px;
+    }
+    .form{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 1050px){
+    .why-info{
+        grid-template-columns: auto;
+    }
+    .price-table{
+        flex-direction: column;
+        margin: 0 250px;
+    }
+    .workers {
+        
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .banner-text p{
+        width: 70%;
     }
 }
