@@ -673,14 +673,10 @@ nav ul li a{
     .form {
         margin-right: 30px;
     }
-    .banner{
-
-    }
 
 }
 @media screen and (max-width: 1200px){
-    .tab-banner{
-    }
+
     .pic{
         margin-left: 30px;
     }
@@ -706,8 +702,7 @@ nav ul li a{
         flex-direction: column;
         margin: 0 250px;
     }
-    .workers {
-        
+    .workers {       
         flex-direction: column;
     }
 }
