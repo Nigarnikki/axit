@@ -484,8 +484,7 @@ nav ul li a{
     height: 340px;
     background-blend-mode: overlay;
     color: white;
-    display: flex;
-    justify-content: center;
+   
 }
 .opacity{
     position: absolute;
@@ -494,6 +493,10 @@ nav ul li a{
     opacity: 0.8;
     height: 340px;
 
+}
+.style{
+    display: flex;
+    justify-content: center;
 }
 .style .content {
     position: relative;
@@ -519,6 +522,7 @@ nav ul li a{
 .style .button{
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
 .contact{
     font-family: 'Raleway', sans-serif;
@@ -604,7 +608,6 @@ nav ul li a{
  img:focus{
     cursor: pointer;
 }
-
 @media screen and (max-width: 1800px) {
     body{
         overflow-x: hidden;
@@ -676,7 +679,6 @@ nav ul li a{
 
 }
 @media screen and (max-width: 1200px){
-
     .pic{
         margin-left: 30px;
     }
@@ -702,7 +704,8 @@ nav ul li a{
         flex-direction: column;
         margin: 0 250px;
     }
-    .workers {       
+    .workers {
+        
         flex-direction: column;
     }
 }
@@ -711,3 +714,4 @@ nav ul li a{
         width: 70%;
     }
 }
+
