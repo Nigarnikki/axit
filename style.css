@@ -484,7 +484,8 @@ nav ul li a{
     height: 340px;
     background-blend-mode: overlay;
     color: white;
-   
+    display: flex;
+    justify-content: center;
 }
 .opacity{
     position: absolute;
@@ -516,7 +517,8 @@ nav ul li a{
     text-align: center;
 }
 .style .button{
-    margin: 30px 735px;
+    display: flex;
+    justify-content: center;
 }
 .contact{
     font-family: 'Raleway', sans-serif;
